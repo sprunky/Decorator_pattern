@@ -14,7 +14,7 @@ public class SharpBlade extends SwordDecorator{
         return super.decorate()+decorateWithSharpBlade();
     }
     private String decorateWithSharpBlade(){
-        return "with sharp blade ";
+        return "with sharpened blade ";
     }
 
 }

@@ -15,7 +15,7 @@ public class Engraved extends SwordDecorator{
     }
 
     private String decorateWithEngraved(){
-        return "With engraved rune of legendary nature";
+        return "with engraved rune of legendary nature";
     }
 
 }

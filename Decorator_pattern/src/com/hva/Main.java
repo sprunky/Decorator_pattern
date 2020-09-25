@@ -16,11 +16,11 @@ public class Main {
         Sword sword = new SwordImpl();
 
         if (scanner.next().toUpperCase().equals("Y")){
-            System.out.println("would you like to add a leather wrapped hilt? y/n");
+            System.out.println("Would you like to add a leather wrapped hilt? y/n");
             if (scanner.next().toUpperCase().equals("Y")){
                 sword = new Hilt(sword);
             }
-            System.out.println("would you like to sharpen the blade? y/n");
+            System.out.println("Would you like to sharpen the blade? y/n");
             if (scanner.next().toUpperCase().equals("Y")){
                 sword = new SharpBlade(sword);
             }
